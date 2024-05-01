@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #f1f1f1;
+            overflow: hidden;
+        }
+        nav a {
+            display: inline-block;
+            color: #000;
+            padding: 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin-right: 10;
+            margin-bottom: 0;
+        }
+        .game-window {
+            width: 1000px;
+            height: 700px;
+            align-items: left;
+        
+        }
+        .description {
+            width: 40%;
+            height: 700px; /* Set the same height as the game window */
+            padding: 0px;
+            box-sizing: border-box;
+            margin-top: 1px;
+            
+        }
+        .game-description {
+            width: calc(100% - 620px); /* Adjust the width based on game window width and margin */
+            height: 900px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .game-title{
+            width: 100%;
+            padding: 0px;
+            box-sizing: border-box;
+            margin-bottom: 0px;
+            text-align: center
+        }
+
+        .game-title h1 {
+          margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Liam Horner</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact Me</a>
+</nav>
+<div class="game-title">
+    <h1> LOG </h1>
+
+</div>
+
+<div class="content">
+
+   
+
+    <div class="game-container">
+        <div class="game-window">
+            <iframe src="LOG/game.html" width="1000" height="700" frameborder="0"></iframe>
+           
+        </div>
+    </div> 
+
+    <div class="description">
+        <h2>Achievements</h2>
+        <p>Survival horror crafter developed within 3 weeks</p>
+        <p>I was the co-designer and programmer, working on systems such as the enemy AI, player handeling and interaction, resource harvesting</p>
+    </div>
+
+    <div class="game-description">
+        <h2>Additional Description</h2>
+        <p>This is another description about the game. You can provide additional details or information here.</p>
+      
+    </div>
+</div>
+
+</body>
+</html>
