@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #f1f1f1;
+            overflow: hidden;
+        }
+        nav a {
+            display: inline-block;
+            color: #000;
+            padding: 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin-right: 10;
+            margin-bottom: 0;
+        }
+        .game-window {
+            width: 1000px;
+            height: 700px;
+            align-items: left;
+        
+        }
+        .description {
+            width: 40%;
+            height: 700px; /* Set the same height as the game window */
+            padding: 0px;
+            box-sizing: border-box;
+            margin-top: 1px;
+            
+        }
+        .game-description {
+            width: calc(100% - 620px); /* Adjust the width based on game window width and margin */
+            height: 900px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .game-title{
+            width: 100%;
+            padding: 0px;
+            box-sizing: border-box;
+            margin-bottom: 0px;
+            text-align: center
+        }
+
+        .game-title h1 {
+          margin: 0;
+        }
+        .image img {
+             width: 50%; /* Set the desired width */
+            height: auto; /* Let the height adjust proportionally */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Liam Horner</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact Me</a>
+</nav>
+<div class="game-title">
+    <h1> One Boot in the Grave </h1>
+
+</div>
+
+<div class="content">
+
+   
+
+    <div class="game-container">
+        <div class="game-window">
+            <iframe src="OBITG/game.html" width="1000" height="700" frameborder="0"></iframe>
+           
+        </div>
+    </div> 
+
+    <div class="description">
+        <h2>Controlls</h2>
+        <p>AD- Movement</p>
+        <p>Space - Jump</p>
+        <p>ESC - Pause</p>
+    
+        <h2>Description</h2>
+        <p>LOG is a survival horror crafter. You are tasked with the objective of survival, and building your LOG cabin. You start in a forest with absolutely nothing. However, the forest is not what it seems. when you go to chop down a tree,
+            you might find that it is a sentient tree! during night time you will not be able to sleep, as you are under consant threat by the unwelcoming forest. your only chance of survival is to build that cabin </p>
+
+        <h2>Project Info</h2>
+        <p> This project was made as an assesment for my game development course. This project had no requirements, we could make any game we wanted. Catch was it had to be developed in 3 weeks only.   </p>
+
+        <h2>My Contributions</h2>
+        <p>Minus the Models and Textures, this was a 2 man project, with me doing 50% of the Programming, Design and Sounds. My areas of focus was the AI, Player Controller\Interaction, Resource harvesting, and log physics. As for the design, i focused 
+            on the lighting, and texturing style. </p>
+
+    
+    </div>
+
+    <div class="image">
+        <img src="game1.jpg">
+    </div>
+   
+    <div class="game-description">
+        <h2>Overall Thoughts</h2>
+        <p></p>
+      
+    </div>
+</div>
+
+</body>
+</html>
