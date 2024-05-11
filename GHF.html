@@ -70,16 +70,17 @@
         .game-title h1 {
           margin: 0;
         }
-        .image img {
-             width: 75%; /* Set the desired width */
-            height: auto; /* Let the height adjust proportionally */
-            padding: 25px;
-        }
-        .description .image {
-            width: 100%; /* Set the desired width */
-            height: auto; /* Let the height adjust proportionally */
-            padding: 10px;
-        }
+        .image {
+        display: flex; /* Use flexbox to lay out images side by side */
+        justify-content: center; /* Center the images horizontally */
+        align-items: center; /* Align the images vertically */
+        padding: 10px; /* Optional: Adds some space around the content */
+    }
+    .image img {
+        width: 700px; /* Adjust width as necessary */
+    
+        padding: 5px; /* Space between images */
+    }
     </style>
 </head>
 <body>
@@ -110,30 +111,32 @@
 
     <div class="description">
         <h2>Description</h2>
-        <p>Gotta Have Faith is a 2.5D platformer bullet hell.</p>
-
+        <p>Gotta Have Faith is a 2.5D platformer bullet hell game with minor roguelite elements. Your goal is to reach the end boss in every stage. However, you cannot damage any enemies directly. To defeat the bosses, you must dodge every attack they throw at you since the bosses take damage from casting spells at you. If you get hit by a spell, you give them a lot of health back.</p>
+        
         <h2>Project Info</h2>
-        <p> This project was made with a group of 7 People; 1 Programmer, 2 Designers, 1 Audio, 3 Artists. This project had to be finished within 3 weeks </p>
-
+        <p>This project was completed by a team of seven people: 1 Programmer, 2 Designers, 1 Audio specialist, and 3 Artists, within a tight deadline of 3 weeks.</p>
+        
         <h2>My Contributions</h2>
-        <p>I was the primary programmer for this assesment, i also designed the 1st level, and was the gameplay designer/balancer. Because of the size of this team, 
-            I took the mantle of team leader.  I assigned jobs to the team, held standups daily, and checked in with everyone seeing if they needed more resources or time. I Managed when people where late
-        and found soulutions solving that. Because i was not the sole designer, i had to make my dev tools easy to use for non programmers. this was a challenge for me, as i allways set up my dev tools to make 
-    sense to the person who wrote that program. however for this i had to think from the prespective of a designer to ensure that the tools where easy to use. While the outcome was not great, i got a whole lot
-    of experience and knoledge on making effective dev tools.  </p>
-      
+        <p>I served as the primary programmer for this assessment and also designed the first level, in addition to handling gameplay design and balancing. Given the team's size, I took on the role of team leader. I assigned tasks, conducted daily stand-ups, and made sure everyone had the resources and time they needed. Managing the challenges of team members being late, I found solutions to keep the project on track. As I was not the only designer, I had to ensure that my development tools were user-friendly for non-programmers. This was a challenge, as I typically design tools to be intuitive for those who create them. For this project, I needed to adopt the perspective of a designer to make the tools accessible. While the project presented challenges, it offered me significant experience and knowledge in creating effective development tools.</p>
+        <h2> My Thoughts</h2>
     </div>
 
-    <div class="image">
-        <img src="GHF/GAF2.png">
-        <img src="GHF/GAF3.png">
-    </div>
+   
    
     <div class="game-description">
         <h2>Overall Thoughts</h2>
-        <p></p>
-      
+<p>This is a project I am not super proud of. This project ran into issues with team size and an unclear scope of the game. To put it simply, there were too many cooks in the kitchen. As the team leader and main developer, I was the one to put out fires.
+While the game did fully fit into what was scoped out, I do not think it is a great product. Initially, for this project, I did not want to take the role as designer, as I wanted to focus on leadership and programming. Sadly, that was not the case,
+I ended up having to take that mantle. As the designer I was working with, while they had good ideas, they did not know how to properly flesh them out or fully consider them. They basically left it up to me to figure it out. While I was not 
+fully happy about that, I gained more experience on how designers and programmers should communicate, as well as skills in putting out fires. That's why I still consider this project when talking about what I have done; it was basically a big testing ground for me
+to challenge myself as a leader and my overall game development knowledge. As if I want to eventually work in an indie studio, I will be putting on many different hats.</p>
+<div class="image">
+    <img src="GHF/GAF2.png">
+    <img src="GHF/GAF3.png">
+</div>
     </div>
+
+    
 </div>
 
 </body>
